@@ -1,0 +1,20 @@
+
+color default default default
+color date cyan default
+color author default default
+
+color graph-commit yellow default
+color main-tracked yellow black bold
+color main-commit white default
+color main-tag yellow black
+color main-local-tag white red
+color main-ref yellow black
+
+color "Refs: " red black
+color "Merge: " white default
+color "Author: " cyan    default
+color "Commit: " cyan default
+color "AuthorDate: " yellow  default
+color "CommitDate: " yellow  default
+color diff-stat white green
+

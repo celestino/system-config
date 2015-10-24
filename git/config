@@ -1,0 +1,23 @@
+[user]
+	name = Celestino Diaz
+	email = cdiaz@make.tv
+[core]
+	excludesfile = /home/cdiaz/.config/git/ignore
+	editor = vim
+[color]
+  ui = auto
+[color "branch"]
+  current = white ul
+  local = white black
+  remote = green black bold
+[color "diff"]
+  meta = white
+  frag = white
+  old = yellow
+  new = green
+[color "status"]
+  added = black yellow
+  changed = black green
+  untracked = white cyan
+[push]
+	default = simple
