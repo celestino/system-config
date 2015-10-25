@@ -7,7 +7,7 @@ if $(confirmModuleInstall "Install terminator configuration"); then
     fi
 
     _TERM_CONFIG_DIR="${_HOME_DIR}/.config/terminator"
-    _TERM_CONFIG_FILE="${_GIT_CONFIG_DIR}/config"
+    _TERM_CONFIG_FILE="${_TERM_CONFIG_DIR}/config"
 
     mkdir -p $_TERM_CONFIG_DIR
     cd $_MODULE_DIR

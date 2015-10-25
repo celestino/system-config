@@ -95,7 +95,8 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 
 " set autocomple menu color
-hilight Pmenu ctermbg=DarkGrey ctermfg=Yellow
+hi Pmenu ctermbg=DarkGrey ctermfg=White
+hi PmenuSel ctermfg=Black ctermbg=White
 
 " set phpcomplete as auto complete handler for php file types
 au FileType php setlocal omnifunc=phpcomplete#CompletePHP
