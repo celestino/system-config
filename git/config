@@ -1,6 +1,6 @@
 [user]
 	name = Celestino Diaz
-	email = cdiaz@make.tv
+	email = celestino.diaz@gmx.de
 [core]
 	excludesfile = @EXCLUDE_FILE@
 	editor = vim
