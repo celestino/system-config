@@ -2,7 +2,7 @@
 	name = Celestino Diaz
 	email = cdiaz@make.tv
 [core]
-	excludesfile = /home/cdiaz/.config/git/ignore
+	excludesfile = @EXCLUDE_FILE@
 	editor = vim
 [color]
   ui = auto
