@@ -1,14 +1,8 @@
 /nbproject/
 .settings/
-/test.php
-/.classpath
-/.project
-/.springBeans
-/.springWebflow
-/build/
-/src/*.php
-/src/*.map
-/*.sh
-/dev
+.classpath
+.project
+.springBeans
+.springWebflow
 .idea
 
