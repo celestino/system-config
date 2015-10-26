@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_SOURCE_DIR=$(pwd)
+_SOURCE_DIR=@SOURCE_DIR@
 _MODULE_DIR=$_SOURCE_DIR
 _HOME_DIR=$HOME
 _OPTION_ALL_MODULES=0
@@ -25,8 +25,9 @@ while [[ $# > 0 ]]; do
     shift
 done
 
+cd $_SOURCE_DIR
 for installScript in $(find ./*/module.sh); do
-    cd $_SOURCE_DIR
     _MODULE_DIR=$(dirname ${installScript})
     source ${installScript}
+    cd $_SOURCE_DIR
 done
