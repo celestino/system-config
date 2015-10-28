@@ -12,12 +12,10 @@ depends=(
     'git'
     'terminator'
     'tig'
-    'zsh'
-    'zsh-syntax-highlighting'
-    'vim'
-    'vim-airline'
-    'vim-nerdtree'
-    'vim-supertab'
+    'zsh-syntax-highlighting' #zsh
+    'vim-airline' #vim-runtime
+    'vim-nerdtree' #vim
+    'vim-supertab' #vim
     'sed'
     'powerline-fonts-git'
 )
