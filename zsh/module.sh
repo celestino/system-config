@@ -11,5 +11,6 @@ if $(confirmModuleInstall "Install zsh configuration"); then
         .zsh-command-coloring \
         .zsh-git-completition \
         .dircolors \
+        .aliases \
         $_HOME_DIR
 fi

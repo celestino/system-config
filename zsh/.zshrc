@@ -74,16 +74,7 @@ zstyle ':completion:*:default' menu 'select=0'
 #zstyle ':completion:*' list-colors "=(#b) #([0-9]#)*=30=30"
 zstyle ':completion:*' list-colors ""
 
-alias ..='cd ..'
-alias l='ls -lh --color=auto'
-alias ll='ls -lah --color=auto'
-
-alias tdd="phpunit -c ~/projects/brickoo/phpunit.xml "
-alias bcc="phpunit -c ~/projects/brickoo/phpunit.xml --coverage-html ~/projects/bcc/ "
-alias hht="hhvm ~/projects/phars/phpunit.phar -c ~/projects/brickoo/tests/phpunit.xml "
-
 # User configuration
-
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # POWERLINE THEME
@@ -110,7 +101,7 @@ zstyle ':vcs_info:*' get-revision true
 zstyle ':vcs_info:*' use-simple false
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' max-exports 5
-zstyle ':vcs_info:*' formats $vcsformat 
+zstyle ':vcs_info:*' formats $vcsformat
 zstyle ':vcs_info:*' actionformats $vcsactionformat
 zstyle ':vcs_info:*' branchformat "%b#%r"
 zstyle ':vcs_info:*' hgrevformat "%r"
@@ -142,7 +133,7 @@ prompt_precmd() {
   if vcs_info; then
     RPROMPT="$vcs_info_msg_0_"
   fi
-  
+
   pwd=("${(s:/:)${(%):-%~}}")
 
   case ${pwd[1]} in
