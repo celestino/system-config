@@ -5,6 +5,10 @@ _MODULE_DIR=$_SOURCE_DIR
 _HOME_DIR=$HOME
 _OPTION_ALL_MODULES=0
 
+if [ "$_SOURCE_DIR" == "@SOURCE_DIR@" ]; then
+    _SOURCE_DIR=$(pwd)
+fi
+
 confirmModuleInstall() {
     if [ $_OPTION_ALL_MODULES == 1 ]; then
         return 0

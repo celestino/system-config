@@ -1,9 +1,8 @@
 " REQUIRED
-" extra/vim-runtime 7.4.884-1
-" community/vim-airline 0.7-2
-" community/vim-nerdtree 4.2.0-4 (vim-plugins)
-" community/vim-supertab 2.1-1 (vim-plugins)
+" vim-runtime >= 7.4.884-1
 
+" Pathogen package manager
+execute pathogen#infect()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
